@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(img/passover.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 950px;
+    position: relative;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#createdDiv{
+    background-color: rgb(150, 150, 150);
+    position: relative;
+    display: inline-block;
+    box-sizing: content-box;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#firstName{
+    font-size: 50px;
+}
+
+#lastName{
+    font-size: 50px;
+    border: 1px solid black;
+}
+
+#removeButton{
+    border-radius: 30px;
+    background-color:rgb(0, 0, 0);
+    color: #e7e7e7;
+    font-weight: 600;
+    font-size: larger;
+}
